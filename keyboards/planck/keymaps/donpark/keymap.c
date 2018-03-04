@@ -40,7 +40,7 @@ enum planck_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-#define MOD_ESC LT(_POK3R, KC_ESC)
+#define MOD_ESC MT(MOD_LCTL, KC_ESC)
 #define MOD_ENT MT(MOD_RSFT, KC_ENT)
 
 /* Qwerty
