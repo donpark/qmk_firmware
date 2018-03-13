@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,     KC_O,     KC_P,      KC_BSPC},
   {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,     KC_L,     KC_SCLN,   KC_QUOT},
   {KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM,  KC_DOT,   KC_SLSH,   ENT_SHIFT},
-  {BACKLIT,   KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT,  KC_DOWN,  KC_UP,     KC_RGHT}
+  {KC_LCTL,   KC_LALT, KC_LGUI, KC_GRV,  LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_MINS,  KC_DOWN,  KC_UP,     KC_RGHT}
 },
 
 /* Pok3r
@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_UP,   KC_O,    KC_P,    KC_BSPC},
   {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_LEFT, KC_DOWN, KC_RGHT, KC_INS,  KC_DEL},
   {KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, ENT_SHIFT},
-  {BACKLIT,   KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_BSPC, KC_BSPC,  RAISE,  KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY}
+  {_______,   _______, _______, _______, LOWER,   KC_BSPC, KC_BSPC,  RAISE,   _______, _______, _______, _______}
 },
 
 /* Lower
