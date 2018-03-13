@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,     KC_O,     KC_P,      KC_BSPC},
   {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,     KC_L,     KC_SCLN,   KC_QUOT},
   {KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM,  KC_DOT,   KC_SLSH,   ENT_SHIFT},
-  {KC_LCTL,   KC_LALT, KC_LGUI, KC_MINS, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT,  KC_DOWN,  KC_UP,     KC_RGHT}
+  {KC_LCTL,   KC_LALT, KC_LGUI, KC_MINS, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT,  KC_RGHT,  KC_UP,     KC_DOWN}
 },
 
 /* Pok3r
@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_UP,   KC_O,    KC_P,    KC_BSPC},
   {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_GRV},
   {KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, _______, KC_BSLS, ENT_SHIFT},
-  {_______,   _______, _______, _______, LOWER,   KC_BSPC, KC_BSPC,  RAISE,  KC_HOME, KC_PGDN, KC_PGUP, KC_END}
+  {_______,   _______, _______, _______, LOWER,   KC_BSPC, KC_BSPC,  RAISE,  KC_HOME, KC_END,  KC_PGUP,  KC_PGDN}
 },
 
 /* Lower
@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR,    KC_ASTR,    KC_LPRN, KC_RPRN, KC_BSPC},
   {KC_DEL,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_UNDS,    KC_PLUS,    KC_LCBR, KC_RCBR, KC_GRV},
   {_______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  S(KC_NUHS), S(KC_NUBS), _______, KC_BSLS, _______},
-  {_______, _______, _______, _______, _______, KC_BSPC, KC_BSPC, _______,    KC_HOME,    KC_PGDN, KC_PGUP, KC_END}
+  {_______, _______, _______, _______, _______, KC_BSPC, KC_BSPC, _______,    KC_HOME,    KC_END,  KC_PGUP, KC_PGDN}
 },
 
 /* Raise
