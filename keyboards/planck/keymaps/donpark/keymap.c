@@ -74,10 +74,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [_POK3R] = {
-  {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_UP,   KC_O,    KC_P,    KC_BSPC},
-  {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_LEFT, KC_DOWN, KC_RGHT, KC_INS,  KC_DEL},
+  {KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_PGDN, KC_BSPC},
+  {ESC_POK3R, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_INS},
   {KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, ENT_SHIFT},
-  {_______,   _______, _______, _______, LOWER,   KC_BSPC, KC_BSPC,  RAISE,  KC_HOME, KC_END,  KC_PGUP,  KC_PGDN}
+  {_______,   _______, _______, _______, LOWER,   KC_BSPC, KC_BSPC, RAISE,   KC_HOME, KC_END,  KC_PGUP, KC_PGDN}
 },
 
 /* Lower
