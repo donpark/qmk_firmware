@@ -39,8 +39,8 @@ enum planck_keycodes {
 };
 
 #define __POK3R    TT(_POK3R)
-#define __LOWER    TT(_LOWER)
-#define __RAISE    TT(_RAISE)
+#define __LOWER    LOWER
+#define __RAISE    RAISE
 #define __LSFT     KC_LSFT
 #define __ENTER    MT(MOD_RSFT, KC_ENT)
 
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_PGDN, KC_BSPC},
   {_______, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_INS},
   {_______, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, __ENTER},
-  {_______, _______, _______, _______, __LOWER, KC_BSPC, KC_BSPC, __RAISE, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT}
+  {_______, _______, _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT}
 },
 
 /* Lower
