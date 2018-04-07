@@ -15,6 +15,8 @@
 
 #define MUSIC_MASK (keycode != KC_NO)
 
+#define TAPPING_TOGGLE 2
+
 /*
  * MIDI options
  */
@@ -25,7 +27,7 @@
 /* enable basic MIDI features:
    - MIDI notes can be sent when in Music mode is on
 */
-                                
+
 #define MIDI_BASIC
 
 /* enable advanced MIDI features:
