@@ -39,8 +39,8 @@ enum planck_keycodes {
 };
 
 #define __POK3R    TT(_POK3R)
-#define __LOWER    LOWER
-#define __RAISE    RAISE
+#define __LOWER    TT(_LOWER)
+#define __RAISE    TT(_RAISE)
 #define __LSFT     KC_LSFT
 #define __ENTER    MT(MOD_RSFT, KC_ENT)
 
