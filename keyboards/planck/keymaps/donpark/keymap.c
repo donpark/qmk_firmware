@@ -43,7 +43,8 @@ enum planck_keycodes {
 #define __RAISE    TT(_RAISE)
 #define __LSFT     KC_LSFT
 #define __ENTER    KC_ENTER
-#define __QUOT     MT(MOD_RSFT, KC_QUOT)
+// #define __QUOT     MT(MOD_RSFT, KC_QUOT)
+#define __QUOT     KC_QUOT
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
