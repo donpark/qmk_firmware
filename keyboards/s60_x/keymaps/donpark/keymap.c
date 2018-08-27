@@ -1,4 +1,4 @@
-#include "s60_x.h"
+#include QMK_KEYBOARD_H
 
 /*
  * HHKB Layout
@@ -17,12 +17,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 │▒▒▒▒▒│ Gui │ Alt │█████│█████│█████│Space│█████│█████│█████│▒▒▒▒▒│ Alt │ Gui │▒▒▒▒▒│█████│
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
      */
-    LEGACY_KEYMAP(
+    LAYOUT_kc(
         ESC,    1,    2,   3,   4,   5,   6,   7,   8,    9,    0, MINS,  EQL, BSLS, GRV, \
         TAB,    Q,    W,   E,   R,   T,   Y,   U,   I,    O,    P, LBRC, RBRC, BSPC,      \
-        FN0,    A,    S,   D,   F,   G,   H,   J,   K,    L, SCLN, QUOT,   NO,  ENT,      \
-        LSFT,   NO,   Z,   X,   C,   V,   B,   N,   M, COMM,  DOT, SLSH,   NO, RSFT, FN0, \
-        LCTL, LALT, LGUI,               SPC,                 RGUI, RALT,  FN0, RCTL),
+        LCTL,    A,    S,   D,   F,   G,   H,   J,   K,    L,  SCLN, QUOT,   NO,  ENT,      \
+        LSFT,   NO,    Z,   X,   C,   V,   B,   N,   M, COMM,  DOT, SLSH,   NO, RSFT, FN0, \
+        LCTL, LALT, LGUI,                SPC,                   RGUI, PGDN,  PGUP, RCTL),
+    
     /* 1: HHKB Fn layer
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
 │ Pwr │ F1  │ F2  │ F3  │ F4  │ F5  │ F6  │ F7  │ F8  │ F9  │ F10 │ F11 │ F12 │ Ins │ Del │
@@ -36,11 +37,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 │▒▒▒▒▒│     │     │█████│█████│█████│     │█████│█████│█████│▒▒▒▒▒│     │     │▒▒▒▒▒│█████│
 └─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
      */
-    LEGACY_KEYMAP(
+    LAYOUT_kc(
        PWR,   F1,   F2,   F3,   F4,   F5,   F6,   F7,   F8,   F9,  F10,  F11,  F12,  INS,  DEL, \
        CAPS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS, TRNS,   UP, PSCR, SLCK, PAUS, TRNS, TRNS,       \
-       TRNS, VOLD, VOLU, MUTE, EJCT, PGUP, PAST, LEFT, DOWN, RGHT, INS,   DEL,   NO, PENT,       \
-       TRNS, TRNS, TRNS, TRNS, HOME, PGDN, PSLS, PPLS, PMNS,  END, TRNS, TRNS,   NO, TRNS, TRNS, \
+       TRNS, VOLD, VOLU, MUTE, EJCT, PGUP, PAST, LEFT, DOWN, RGHT,  DEL,  INS,   NO, PENT,       \
+       TRNS, TRNS, TRNS, TRNS, HOME, TRNS, PSLS, PPLS, PMNS,  END, TRNS, TRNS,   NO, TRNS, TRNS, \
        TRNS, TRNS, TRNS,                   BSPC,                   TRNS, TRNS, TRNS, TRNS),
 };
 
