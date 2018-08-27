@@ -1,14 +1,14 @@
 
 ```
-make satan:donkey
+make satan:donpark
 ```
 
 ```
-make dz60:hhpoker
+make dz60:donpark
 ```
 
 ```
-make s60_x/rgb:hhpoker
+make s60_x/rgb:donpark
 ```
 
 ```
