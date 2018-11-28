@@ -18,3 +18,8 @@ make planck/rev5:donpark
 ```
 make lets_split/rev2:donpark
 ```
+
+```
+make kbd6x:donpark
+make kbd6x:donpark:avrdude
+```
