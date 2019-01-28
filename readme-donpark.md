@@ -13,6 +13,7 @@ make s60_x/rgb:donpark
 
 ```
 make planck/rev5:donpark
+make planck/rev5:donpark2
 ```
 
 ```
