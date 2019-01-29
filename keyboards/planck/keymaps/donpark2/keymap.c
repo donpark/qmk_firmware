@@ -33,9 +33,9 @@ enum planck_keycodes {
   POK3R
 };
 
-#define __POK3R    TT(_POK3R)
-#define __LOWER    TT(_LOWER)
-#define __RAISE    TT(_RAISE)
+#define __POK3R    MO(_POK3R)
+#define __LOWER    MO(_LOWER)
+#define __RAISE    MO(_RAISE)
 #define __LSFT     KC_LSFT
 #define __ENTER    MT(MOD_RSFT, KC_ENTER)
 
