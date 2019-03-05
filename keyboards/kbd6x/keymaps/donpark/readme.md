@@ -1,1 +1,0 @@
-# donpark's keymap for kbd6x
