@@ -27,6 +27,7 @@ Planck
 ```
 make planck/rev5:donpark
 make planck/rev5:donpark2
+make planck/rev5:donpark3
 ```
 
 Let's Split
@@ -36,5 +37,9 @@ make lets_split/rev2:donpark
 
 Make Vitamins
 ```
+make vitamins_included:donpark
 make vitamins_included:donpark:avrdude
+
+make vitamins_included:donpark2
+make vitamins_included:donpark2:avrdude
 ```
