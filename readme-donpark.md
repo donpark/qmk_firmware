@@ -30,6 +30,11 @@ make planck/rev5:donpark2
 make planck/rev5:donpark3
 ```
 
+Lily58 Pro
+```
+sudo make lily58:donpark:avrdude
+```
+
 Let's Split
 ```
 make lets_split/rev2:donpark
