@@ -75,9 +75,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT( \
   _______, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_TILD,  \
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                     _______, KC_HOME, KC_UP,   KC_END,  _______, KC_PIPE,  \
-  _______, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,                    _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_DQUO,  \
-  _______, _______, _______, _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, KC_PGUP, KC_PGDN, KC_LABK, KC_RABK, KC_QUES, KC_ENTER, \
-                             _______, _______, _______, _______, _______, _______, KC_UNDS, KC_PLUS \
+  KC_CAPS, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,                    _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_DQUO,  \
+  _______, _______, _______, _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, KC_PGUP, KC_PGDN, KC_HOME, KC_END,  KC_QUES, KC_ENTER, \
+                             _______, _______, _______, _______, KC_BSPC, _______, KC_UNDS, KC_PLUS \
 ),
 /* RAISE
  * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -97,8 +97,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT( \
   _______, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_TILD,  \
   _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                     _______, KC_HOME, KC_UP,   KC_END,  _______, KC_PIPE,  \
-  _______, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,                    _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_DQUO,  \
-  _______, _______, _______, _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, KC_PGUP, KC_PGDN, KC_LABK, KC_RABK, KC_QUES, KC_ENTER, \
+  KC_CAPS, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,                    _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_DEL,  KC_DQUO,  \
+  _______, _______, _______, _______, KC_F11,  KC_F12,  KC_LCBR, KC_RCBR, KC_PGUP, KC_PGDN, KC_HOME, KC_END,  KC_QUES, KC_ENTER, \
                              _______, _______, _______, _______, KC_BSPC, _______, KC_UNDS, KC_PLUS \
 ),
 /* ADJUST
