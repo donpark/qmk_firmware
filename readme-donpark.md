@@ -9,6 +9,7 @@ make kbdfans/kbd6x:donpark
 DZ60
 ```
 make dz60:donpark
+make dz60:donpark-tsangan
 ```
 
 Satan GH60
