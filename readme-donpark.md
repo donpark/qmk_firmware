@@ -15,6 +15,7 @@ make dz60:donpark-tsangan
 Satan GH60
 ```
 make satan:donpark
+make satan:donpark-tsangan
 ```
 
 Sentriq 60X RGB
